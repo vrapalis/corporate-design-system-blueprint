@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/core-components",
+    "libs/react-components",
+    "libs/angular-components",
+    "libs/angular-components/dist/component-library"
+  ],
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "lerna": "^5.5.1",
+    "nx": "14.7.5",
+
+    "@types/react": "^16.9.27"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

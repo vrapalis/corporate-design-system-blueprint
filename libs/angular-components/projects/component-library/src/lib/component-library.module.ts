@@ -1,16 +1,20 @@
-import { NgModule } from '@angular/core';
-import { ComponentLibraryComponent } from './component-library.component';
+import {NgModule} from '@angular/core';
+import {ComponentLibraryComponent} from './component-library.component';
+import {DIRECTIVES} from './generated';
+import {defineCustomElements} from 'vrapalis-core-components/loader';
 
-
+defineCustomElements();
 
 @NgModule({
   declarations: [
-    ComponentLibraryComponent
+    ComponentLibraryComponent,
+    ...DIRECTIVES
   ],
-  imports: [
-  ],
+  imports: [],
   exports: [
-    ComponentLibraryComponent
+    ComponentLibraryComponent,
+    ...DIRECTIVES
   ]
 })
-export class ComponentLibraryModule { }
+export class ComponentLibraryModule {
+}
