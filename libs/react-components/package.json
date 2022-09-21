@@ -1,5 +1,5 @@
 {
-  "name": "vrapalis-react-components",
+  "name": "@vrapalis/react-components",
   "version": "0.6.0",
   "description": "Made with create-react-library",
   "author": "",
@@ -67,5 +67,5 @@
   "dependencies": {
     "@vrapalis/core-components": "^0.6.0"
   },
-  "gitHead": "76c00b8b54314c533825d788fa5432f5c8599e1d"
+  "gitHead": "08b0e5716120e37980c46cc8d07b6f391993992e"
 }
