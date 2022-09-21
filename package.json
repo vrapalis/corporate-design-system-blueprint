@@ -6,7 +6,7 @@
     "libs/core-components",
     "libs/react-components",
     "libs/angular-components",
-    "libs/angular-components/dist/component-library"
+    "libs/angular-components/projects/*"
   ],
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
