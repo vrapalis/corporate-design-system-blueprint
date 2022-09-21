@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-// import {ComponentLibraryModule} from "vrapalis-angular-components";
+import {AppComponent} from './app.component';
+import {ComponentLibraryModule} from "@vrapalis/angular-components";
 
 @NgModule({
   declarations: [
@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    // ComponentLibraryModule
+    ComponentLibraryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
