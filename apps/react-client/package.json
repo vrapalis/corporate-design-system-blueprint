@@ -1,6 +1,6 @@
 {
   "name": "react-client",
-  "version": "0.6.0",
+  "version": "0.7.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,12 +10,12 @@
     "@types/node": "^16.11.59",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
+    "@vrapalis/react-components": "file:../../libs/react-components/dist",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.3",
-    "web-vitals": "^2.1.4",
-    "@vrapalis/react-components": "file:../../libs/react-components/dist"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
