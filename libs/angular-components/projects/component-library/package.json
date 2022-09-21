@@ -1,10 +1,9 @@
 {
   "name": "vrapalis-angular-components",
-  "version": "0.0.0",
+  "version": "0.4.0",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0",
-    "vrapalis-core-components": "0.0.0"
+    "@angular/core": "^14.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

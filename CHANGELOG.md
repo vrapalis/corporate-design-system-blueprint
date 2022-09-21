@@ -57,37 +57,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **demo-component:** implemented demo component in stencil ([838b6fc](https://github.com/vrapalis/corporate-design-system-blueprint/commit/838b6fca8171d8091508826ac9b1c12fff7669f4))
-
-
-
-
-
-## [1.0.2](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.1.0...v1.0.2) (2022-09-20)
-
-
-### Bug Fixes
-
-* **project:** fix project runtime ([e5f8b82](https://github.com/vrapalis/corporate-design-system-blueprint/commit/e5f8b82fdfb69e58075144ddcad3c697d7abc1ae))
-
-
-
-
-
-# [0.1.0](/compare/v0.0.1...v0.1.0) (2022-09-16)
-
-
-### Bug Fixes
-
-* **remove-test:** remove breaking test f278797
-* **test:** remove breaking test 0559917
-
-
-### Features
-
-* **component-library.component:** implementd component-library.component 707701b
-* **component-library:** implemented component library ac46a1e
-
-
-### BREAKING CHANGES
-
-* **component-library:** More html
