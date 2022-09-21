@@ -1,0 +1,28 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   'include-dependencies': true,
+0 silly argv   includeDependencies: true,
+0 silly argv   ignore: [ 'angular-client', 'react-client' ],
+0 silly argv   lernaVersion: '5.5.1',
+0 silly argv   '$0': 'lerna',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v5.5.1
+2 verbose rootPath /home/vrapalis/Workspace/vrapalis/enterprise-development-blueprints/frontend-blueprints/corporate-design-system-blueprint
+3 notice filter excluding ["angular-client","react-client"]
+4 notice filter including dependencies
+5 info filter [ '!angular-client', '!react-client' ]
+6 error Error: Cannot find module 'nx/presets/npm.json'
+6 error Require stack:
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/nx/src/config/workspaces.js
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/nx/src/config/configuration.js
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/@lerna/run/index.js
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/@lerna/run/command.js
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/index.js
+6 error - /home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/cli.js
+6 error     at Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+6 error     at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+6 error     at Workspaces.readNxJson (/home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/nx/src/config/workspaces.js:152:52)
+6 error     at readNxJson (/home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/nx/src/config/configuration.js:7:72)
+6 error     at RunCommand.prepNxOptions (/home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/@lerna/run/index.js:223:20)
+6 error     at RunCommand.runScriptsUsingNx (/home/vrapalis/.nvm/versions/node/v18.7.0/lib/node_modules/lerna/node_modules/@lerna/run/index.js:189:64)
