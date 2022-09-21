@@ -3,9 +3,9 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import type { JSX } from 'vrapalis-core-components';
+import type { JSX } from '@vrapalis/core-components';
 
-import { defineCustomElements } from 'vrapalis-core-components/loader';
+import { defineCustomElements } from '@vrapalis/core-components/loader';
 
 defineCustomElements();
 export const MyComponent = /*@__PURE__*/createReactComponent<JSX.MyComponent, HTMLMyComponentElement>('my-component');

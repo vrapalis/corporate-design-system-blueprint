@@ -22,13 +22,13 @@ export const config: Config = {
       serviceWorker: null, // disable service workers
     },
     angularOutputTarget({
-      componentCorePackage: 'vrapalis-core-components',
+      componentCorePackage: '@vrapalis/core-components',
       directivesProxyFile: '../angular-components/projects/component-library/src/lib/generated/components.ts',
       directivesArrayFile: '../angular-components/projects/component-library/src/lib/generated/index.ts',
     }),
 
     react({
-      componentCorePackage: 'vrapalis-core-components',
+      componentCorePackage: '@vrapalis/core-components',
       proxiesFile: '../react-components/src/components/generated/index.ts',
       includeDefineCustomElements: true,
     }),

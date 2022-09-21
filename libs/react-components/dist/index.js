@@ -2,7 +2,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = require('react');
 var React__default = _interopDefault(React);
-var loader = require('vrapalis-core-components/loader');
+var loader = require('@vrapalis/core-components/loader');
 
 var styles = {"test":"_3ybTi"};
 

@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {ComponentLibraryComponent} from './component-library.component';
 import {DIRECTIVES} from './generated';
-import {defineCustomElements} from 'vrapalis-core-components/loader';
+import {defineCustomElements} from '@vrapalis/core-components/loader';
 
 defineCustomElements();
 

@@ -1,6 +1,6 @@
 {
   "name": "vrapalis-react-components",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
@@ -11,6 +11,9 @@
   "private": false,
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
@@ -62,6 +65,7 @@
     "dist"
   ],
   "dependencies": {
-    "vrapalis-core-components": "^0.4.0"
-  }
+    "@vrapalis/core-components": "^0.5.0"
+  },
+  "gitHead": "76c00b8b54314c533825d788fa5432f5c8599e1d"
 }

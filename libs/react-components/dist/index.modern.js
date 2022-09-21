@@ -1,5 +1,5 @@
 import React__default, { createElement } from 'react';
-import { defineCustomElements } from 'vrapalis-core-components/loader';
+import { defineCustomElements } from '@vrapalis/core-components/loader';
 
 var styles = {"test":"_3ybTi"};
 

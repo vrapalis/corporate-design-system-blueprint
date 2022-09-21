@@ -1,6 +1,6 @@
 {
-  "name": "vrapalis-core-components",
-  "version": "0.4.0",
+  "name": "@vrapalis/core-components",
+  "version": "0.5.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -18,6 +18,9 @@
     "dist/",
     "loader/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
@@ -37,5 +40,6 @@
     "jest-cli": "^27.4.5",
     "puppeteer": "^10.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "76c00b8b54314c533825d788fa5432f5c8599e1d"
 }
