@@ -1,6 +1,6 @@
 {
   "name": "vrapalis-react-components",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
@@ -62,6 +62,6 @@
     "dist"
   ],
   "dependencies": {
-    "vrapalis-core-components": "^0.4.0"
+    "vrapalis-core-components": "^0.5.0"
   }
 }
