@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+
+footer {
+  height: 3em;
+  color: #756d6d;
+  font-size: 14px;
+  font-family: "Arial Black";
+  background: #cbcece;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+label {
+  padding-left: 20px;
+  color: brown;
+  padding-right: 20px;
+}

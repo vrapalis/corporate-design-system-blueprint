@@ -1,0 +1,37 @@
+:host {
+  display: block;
+}
+
+header {
+  color: #756d6d;
+  font-size: 18px;
+  font-family: "Arial Black";
+  background: #cbcece;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  padding-left: 20px;
+  color: brown;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background: rgba(117, 109, 109, 0.15);
+}

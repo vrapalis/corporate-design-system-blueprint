@@ -6,6 +6,10 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DsFooter {
+    }
+    interface DsHeader {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -22,6 +26,18 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDsFooterElement extends Components.DsFooter, HTMLStencilElement {
+    }
+    var HTMLDsFooterElement: {
+        prototype: HTMLDsFooterElement;
+        new (): HTMLDsFooterElement;
+    };
+    interface HTMLDsHeaderElement extends Components.DsHeader, HTMLStencilElement {
+    }
+    var HTMLDsHeaderElement: {
+        prototype: HTMLDsHeaderElement;
+        new (): HTMLDsHeaderElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
@@ -29,10 +45,16 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "ds-footer": HTMLDsFooterElement;
+        "ds-header": HTMLDsHeaderElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface DsFooter {
+    }
+    interface DsHeader {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -48,6 +70,8 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "ds-footer": DsFooter;
+        "ds-header": DsHeader;
         "my-component": MyComponent;
     }
 }
@@ -55,6 +79,8 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "ds-footer": LocalJSX.DsFooter & JSXBase.HTMLAttributes<HTMLDsFooterElement>;
+            "ds-header": LocalJSX.DsHeader & JSXBase.HTMLAttributes<HTMLDsHeaderElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }

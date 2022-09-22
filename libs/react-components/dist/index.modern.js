@@ -27266,6 +27266,8 @@ if (process.env.NODE_ENV === 'production') {
 });
 
 defineCustomElements();
+var DsFooter = /*@__PURE__*/createReactComponent('ds-footer');
+var DsHeader = /*@__PURE__*/createReactComponent('ds-header');
 var MyComponent = /*@__PURE__*/createReactComponent('my-component');
 
 var ExampleComponent = function ExampleComponent(_ref) {
@@ -27275,5 +27277,5 @@ var ExampleComponent = function ExampleComponent(_ref) {
   }, "Example Component: ", text);
 };
 
-export { ExampleComponent, MyComponent };
+export { DsFooter, DsHeader, ExampleComponent, MyComponent };
 //# sourceMappingURL=index.modern.js.map
