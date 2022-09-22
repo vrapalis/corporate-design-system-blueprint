@@ -10,9 +10,6 @@ import {ComponentLibraryModule} from "@vrapalis/angular-components";
   ],
   imports: [
     BrowserModule,
-    ComponentLibraryModule,
-    ComponentLibraryModule,
-    ComponentLibraryModule,
     ComponentLibraryModule
   ],
   providers: [],

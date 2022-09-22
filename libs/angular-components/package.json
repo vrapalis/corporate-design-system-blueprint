@@ -2,7 +2,7 @@
   "name": "@vrapalis/angular-components",
   "version": "0.8.2",
   "files": [
-    "dist/component-library"
+    "dist"
   ],
   "publishConfig": {
     "access": "public"
