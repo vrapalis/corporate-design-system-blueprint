@@ -11,5 +11,8 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "files": [
+    "../../dist/component-library"
+  ],
   "gitHead": "08b0e5716120e37980c46cc8d07b6f391993992e"
 }
