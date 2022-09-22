@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.3](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.8.2...v0.8.3) (2022-09-22)
+
+
+### Bug Fixes
+
+* **lerna:** fixed build and publish ([da452ca](https://github.com/vrapalis/corporate-design-system-blueprint/commit/da452ca28148518ed62f3fd994265fdae3abd72f))
+* **lerna:** fixed build packages ([ee10a3f](https://github.com/vrapalis/corporate-design-system-blueprint/commit/ee10a3fff5628b5fa398adb57f86f8626d9a034c))
+
+
+
+
+
 ## [0.8.2](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.8.1...v0.8.2) (2022-09-22)
 
 
