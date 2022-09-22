@@ -1,6 +1,5 @@
 # my-component
-
-
+## Demo component
 
 <!-- Auto Generated Below -->
 
