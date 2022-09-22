@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.7.1...v0.8.0) (2022-09-22)
+
+
+### Bug Fixes
+
+* **lerna:** added missing lerna package ([0ddc09b](https://github.com/vrapalis/corporate-design-system-blueprint/commit/0ddc09b3a5c70a92c43b2cafa65b43bbfa2a2100))
+
+
+### Features
+
+* **header,footer:** created header and footer components ([bddf9b5](https://github.com/vrapalis/corporate-design-system-blueprint/commit/bddf9b598b5d0182ee19d4fa148638f03a651f4d))
+
+
+
+
+
 # 0.7.0 (2022-09-21)
 
 
