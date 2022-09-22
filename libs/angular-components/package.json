@@ -1,6 +1,12 @@
 {
-  "name": "angular-components",
+  "name": "@vrapalis/angular-components",
   "version": "0.8.0",
+  "files": [
+    "dist/component-library"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +14,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
     "@angular/common": "^14.2.0",

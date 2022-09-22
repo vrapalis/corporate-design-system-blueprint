@@ -3,10 +3,7 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "libs/core-components",
-    "libs/react-components",
-    "libs/angular-components",
-    "libs/angular-components/projects/component-library"
+    "libs/*"
   ],
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
