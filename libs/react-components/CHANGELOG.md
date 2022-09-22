@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](/compare/v0.8.3...v0.9.0) (2022-09-22)
+
+
+### Features
+
+* **component:** implemented application component ac81d47
+
+
+
+
+
 ## [0.8.3](/compare/v0.8.2...v0.8.3) (2022-09-22)
 
 

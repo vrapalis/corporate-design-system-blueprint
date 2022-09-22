@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.8.3...v0.9.0) (2022-09-22)
+
+
+### Features
+
+* **component:** implemented application component ([ac81d47](https://github.com/vrapalis/corporate-design-system-blueprint/commit/ac81d4773b6d127d6b32e53f5761c10eb84cad14))
+
+
+
+
+
 # [0.8.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.7.1...v0.8.0) (2022-09-22)
 
 
