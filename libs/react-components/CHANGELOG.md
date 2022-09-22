@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](/compare/v0.8.0...v0.8.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* **lerna:** added missing lerna package c6af79d
+
+
+
+
+
 # [0.8.0](/compare/v0.7.1...v0.8.0) (2022-09-22)
 
 

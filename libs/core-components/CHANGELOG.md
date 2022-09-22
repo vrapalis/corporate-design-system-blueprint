@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/ionic-team/stencil-component-starter/compare/v0.8.0...v0.8.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* **lerna:** added missing lerna package ([c6af79d](https://github.com/ionic-team/stencil-component-starter/commit/c6af79d116d9c38d4bfd3fdfd3494c349921a476))
+
+
+
+
+
 # [0.8.0](https://github.com/ionic-team/stencil-component-starter/compare/v0.7.1...v0.8.0) (2022-09-22)
 
 
