@@ -6,26 +6,22 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DsApplication {
+        "footerTitle": string;
+        "headerTitle": string;
+    }
     interface DsFooter {
     }
     interface DsHeader {
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
-    }
 }
 declare global {
+    interface HTMLDsApplicationElement extends Components.DsApplication, HTMLStencilElement {
+    }
+    var HTMLDsApplicationElement: {
+        prototype: HTMLDsApplicationElement;
+        new (): HTMLDsApplicationElement;
+    };
     interface HTMLDsFooterElement extends Components.DsFooter, HTMLStencilElement {
     }
     var HTMLDsFooterElement: {
@@ -38,50 +34,34 @@ declare global {
         prototype: HTMLDsHeaderElement;
         new (): HTMLDsHeaderElement;
     };
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
-    }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
-    };
     interface HTMLElementTagNameMap {
+        "ds-application": HTMLDsApplicationElement;
         "ds-footer": HTMLDsFooterElement;
         "ds-header": HTMLDsHeaderElement;
-        "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface DsApplication {
+        "footerTitle"?: string;
+        "headerTitle"?: string;
+    }
     interface DsFooter {
     }
     interface DsHeader {
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
-    }
     interface IntrinsicElements {
+        "ds-application": DsApplication;
         "ds-footer": DsFooter;
         "ds-header": DsHeader;
-        "my-component": MyComponent;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "ds-application": LocalJSX.DsApplication & JSXBase.HTMLAttributes<HTMLDsApplicationElement>;
             "ds-footer": LocalJSX.DsFooter & JSXBase.HTMLAttributes<HTMLDsFooterElement>;
             "ds-header": LocalJSX.DsHeader & JSXBase.HTMLAttributes<HTMLDsHeaderElement>;
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
 }

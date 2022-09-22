@@ -8,6 +8,27 @@ import { Components } from '@vrapalis/core-components';
 
 
 
+export declare interface DsApplication extends Components.DsApplication {}
+
+@ProxyCmp({
+  defineCustomElementFn: undefined,
+  inputs: ['footerTitle', 'headerTitle']
+})
+@Component({
+  selector: 'ds-application',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: '<ng-content></ng-content>',
+  inputs: ['footerTitle', 'headerTitle']
+})
+export class DsApplication {
+  protected el: HTMLElement;
+  constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
+    c.detach();
+    this.el = r.nativeElement;
+  }
+}
+
+
 export declare interface DsFooter extends Components.DsFooter {}
 
 @ProxyCmp({
@@ -38,27 +59,6 @@ export declare interface DsHeader extends Components.DsHeader {}
   template: '<ng-content></ng-content>'
 })
 export class DsHeader {
-  protected el: HTMLElement;
-  constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
-    c.detach();
-    this.el = r.nativeElement;
-  }
-}
-
-
-export declare interface MyComponent extends Components.MyComponent {}
-
-@ProxyCmp({
-  defineCustomElementFn: undefined,
-  inputs: ['first', 'last', 'middle']
-})
-@Component({
-  selector: 'my-component',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  template: '<ng-content></ng-content>',
-  inputs: ['first', 'last', 'middle']
-})
-export class MyComponent {
   protected el: HTMLElement;
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();

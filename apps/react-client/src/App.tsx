@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import {DsHeader, DsFooter} from '@vrapalis/react-components';
+import {DsApplication} from '@vrapalis/react-components';
 
 function App() {
   return (
     <div>
-        <DsHeader>React Application</DsHeader>
-        <DsFooter>React is great</DsFooter>
+        <DsApplication headerTitle="React Application" footerTitle="React is great">
+            <h3>Components ... </h3>
+        </DsApplication>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}

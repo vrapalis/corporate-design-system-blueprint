@@ -27269,9 +27269,9 @@ if (process.env.NODE_ENV === 'production') {
 });
 
 loader.defineCustomElements();
+var DsApplication = /*@__PURE__*/createReactComponent('ds-application');
 var DsFooter = /*@__PURE__*/createReactComponent('ds-footer');
 var DsHeader = /*@__PURE__*/createReactComponent('ds-header');
-var MyComponent = /*@__PURE__*/createReactComponent('my-component');
 
 var ExampleComponent = function ExampleComponent(_ref) {
   var text = _ref.text;
@@ -27280,8 +27280,8 @@ var ExampleComponent = function ExampleComponent(_ref) {
   }, "Example Component: ", text);
 };
 
+exports.DsApplication = DsApplication;
 exports.DsFooter = DsFooter;
 exports.DsHeader = DsHeader;
 exports.ExampleComponent = ExampleComponent;
-exports.MyComponent = MyComponent;
 //# sourceMappingURL=index.js.map
