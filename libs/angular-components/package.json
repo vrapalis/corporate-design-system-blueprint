@@ -10,9 +10,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test component-library --watch=false --browsers=ChromeHeadless"
+    "test": "ng test component-library --watch=false --browsers=ChromeHeadless",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@angular/animations": "^14.2.0",
