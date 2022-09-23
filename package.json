@@ -6,15 +6,20 @@
     "libs/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@types/react": "^16.9.27",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
     "lerna": "^5.5.1",
-    "nx": "14.7.5",
-
-    "@types/react": "^16.9.27"
+    "nx": "14.7.5"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
