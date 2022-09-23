@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'Running tests ...'
+lerna run test --parallel --no-sort  --ignore=angular-client --ignore=react-client

@@ -18,7 +18,8 @@
     "typeRoots": ["node_modules/@types"] // Solution by https://stackoverflow.com/questions/67806963/types-eslint-error-chainexpression-and-importexpression-members-of-estree-not
   },
   "include": [
-    "src"
+    "src",
+    "../node_modules/@types/jasmine/index.d.ts"
   ],
   "exclude": [
     "node_modules"
