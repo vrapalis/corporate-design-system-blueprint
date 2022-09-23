@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](/compare/v0.9.0...v0.10.0) (2022-09-23)
+
+
+### Bug Fixes
+
+* **react:** fix react tests c1cbf07
+* **react:** fix react tests d76e1eb
+
+
+### Features
+
+* **package.json:** added prepublish 211b17d
+
+
+
+
+
 # [0.9.0](/compare/v0.8.3...v0.9.0) (2022-09-22)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@vrapalis/angular-components",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "files": [
     "dist"
   ],
@@ -24,7 +24,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@vrapalis/core-components": "^0.9.0",
+    "@vrapalis/core-components": "^0.10.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

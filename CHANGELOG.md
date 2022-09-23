@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.9.0...v0.10.0) (2022-09-23)
+
+
+### Bug Fixes
+
+* **react:** fix react tests ([c1cbf07](https://github.com/vrapalis/corporate-design-system-blueprint/commit/c1cbf07c84a12c0d08161670c6dbbdc025fd7c6c))
+* **react:** fix react tests ([d76e1eb](https://github.com/vrapalis/corporate-design-system-blueprint/commit/d76e1eb9384a4e795ddfb330f16d2a3a45c65e23))
+
+
+### Features
+
+* **package.json:** added prepublish ([211b17d](https://github.com/vrapalis/corporate-design-system-blueprint/commit/211b17d850c3bc787a1bf2309ac64fbc7519949d))
+
+
+
+
+
 # [0.9.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.8.3...v0.9.0) (2022-09-22)
 
 
