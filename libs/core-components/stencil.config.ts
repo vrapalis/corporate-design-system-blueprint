@@ -6,6 +6,7 @@ import {reactOutputTarget as react} from '@stencil/react-output-target';
 
 export const config: Config = {
   namespace: 'core-components',
+  globalStyle: 'src/global/global.css',
   outputTargets: [
     {
       type: 'dist',

@@ -12,7 +12,7 @@
   "unpkg": "dist/core-components/core-components.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/vrapalis/corporate-design-system-blueprint.git"
   },
   "files": [
     "dist/",

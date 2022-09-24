@@ -1,0 +1,21 @@
+{
+  "name": "web-client",
+  "version": "0.10.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && webpack serve --mode=development",
+    "test": "echo \"Running tests\" "
+  },
+  "dependencies": {
+    "@vrapalis/core-components": "file:../../libs/core-components/dist"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

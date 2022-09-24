@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Client</title>
+    <link rel="stylesheet" href="node_modules/@vrapalis/core-components/core-components/core-components.css"/>
+    <script type="module" src="node_modules/@vrapalis/core-components/core-components/core-components.esm.js"></script>
+    <script type="module">
+        import {defineCustomElements} from 'https://cdn.jsdelivr.net/npm/@ionic/core/loader/index.es2017.mjs';
+
+        defineCustomElements();
+    </script>
+</head>
+<body style="margin: unset;">
+<ds-application>
+    <h3>Components ...</h3>
+</ds-application>
+
+<script>
+    const todoListElement = document.querySelector('ds-application');
+    todoListElement.headerTitle = "Web Application";
+    todoListElement.footerTitle = "Web is great";
+</script>
+</body>
+</html>
