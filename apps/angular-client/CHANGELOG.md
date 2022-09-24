@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.10.0...v0.11.0) (2022-09-24)
+
+
+### Bug Fixes
+
+* **angular client fix:** fix angular client ([a7cd977](https://github.com/vrapalis/corporate-design-system-blueprint/commit/a7cd977e1d72a96cbb2e538cdab6e2baf6f396f6))
+
+
+### Features
+
+* **web-client:** added web-client ([f41a61d](https://github.com/vrapalis/corporate-design-system-blueprint/commit/f41a61d47d1762e1350de93c21041f33c9efe4b8))
+
+
+
+
+
 # [0.10.0](https://github.com/vrapalis/corporate-design-system-blueprint/compare/v0.9.0...v0.10.0) (2022-09-23)
 
 **Note:** Version bump only for package angular-client
