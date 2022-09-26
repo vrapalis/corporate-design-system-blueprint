@@ -1,6 +1,6 @@
 {
   "name": "storybook-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -11,11 +11,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "@storybook/html": "^6.5.12",
+    "@storybook/addon-docs": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
-    "@storybook/addon-docs": "^6.5.12"
+    "@storybook/html": "^6.5.12"
   }
 }

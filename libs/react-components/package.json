@@ -1,6 +1,6 @@
 {
   "name": "@vrapalis/react-components",
-  "version": "0.11.0",
+  "version": "1.1.0",
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
@@ -49,6 +49,7 @@
     "cross-env": "^7.0.2",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^7.0.0",
+    "eslint-config-react-app": "^6.0.0",
     "eslint-config-standard": "^16.0.0",
     "eslint-config-standard-react": "^11.0.0",
     "eslint-plugin-import": "^2.18.2",
@@ -64,7 +65,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "eslint-config-react-app": "^6.0.0",
     "typescript": "^4.7.0"
   },
   "files": [
@@ -74,7 +74,7 @@
     "extends": []
   },
   "dependencies": {
-    "@vrapalis/core-components": "^0.11.0"
+    "@vrapalis/core-components": "^1.1.0"
   },
   "gitHead": "08b0e5716120e37980c46cc8d07b6f391993992e"
 }
