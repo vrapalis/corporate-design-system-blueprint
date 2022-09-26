@@ -7,7 +7,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && webpack serve --mode=development",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && webpack serve --mode development",
     "test": "echo \"Running tests\" "
   },
   "dependencies": {

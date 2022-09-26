@@ -8,8 +8,11 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: path.resolve(__dirname, '.'),
         port: 9000,
-        open: true
+        open: true,
+        compress: true,
+        static: {
+            directory: path.resolve(__dirname, '.')
+        }
     }
 };
