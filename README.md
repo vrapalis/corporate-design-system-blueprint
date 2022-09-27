@@ -10,7 +10,7 @@
 
 > Often in a **big companies** different teams use **distinct ui frameworks** to develop frontends, each team has to
 > implement buttons, checkboxes and so on over and over again, upon that the team should fallow the styleguide of the company, no surprise this approach is very unsufficient. 
-> It exist better approach, to develop **single code basis** and from this code basis then **compile to** target ui framework components **(Angular, React, Vue)***.
+> It exist better approach, to develop **single code basis** and from this code basis then **compile to** target ui framework components **(Angular, React, Vue)**.
 > **This project is a blueprint** for developing the **single code basis** (core-components) and from this code basis then to compile
 > to target framework components. For this goal [Stencil](https://stenciljs.com/) can be used, stencil is a toolchain for building reusable, 
 > design systems. **Stencil** will generate web-components based on web standards and wrap the **web-components** to
