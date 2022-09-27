@@ -10,7 +10,7 @@ export class DsHeader {
   render() {
     return (
       <Host>
-        <header>
+        <header data-testid="ds-header-test-id">
           <label>
             <slot></slot>
           </label>

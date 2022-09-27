@@ -1,12 +1,23 @@
 module.exports = {
-  "stories": [
+  stories: [
       "../stories/intro.stories.mdx",
-    "../**/**/*.stories.mdx",
-    "../**/**/*.stories.@(js|jsx|ts|tsx)"
+    "../stories/*.stories.mdx",
+    "../stories/*.stories.@(js|jsx|ts|tsx)"
   ],
-  "addons": [
+  core: {
+    builder: 'webpack5'
+  },
+  addons: [
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-interactions",
+    'storybook-addon-designs',
+    '@storybook/addon-docs',
+    '@storybook/addon-a11y',
+    '@storybook/addon-viewport',
   ],
-  "framework": "@storybook/html"
+  features: {
+    previewMdx2: true,
+    interactionsDebugger: true, // 👈 Enable playback controls
+  },
+  framework: "@storybook/html"
 }

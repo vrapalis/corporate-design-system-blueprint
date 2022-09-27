@@ -1,0 +1,16 @@
+{
+  "extends": "../../core-components/tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+
+  "exclude": ["../../core-components/src/components/**/*.spec.ts"],
+  "include": [
+    "../../core-components/src/components/**/*.stories.ts",
+    "../../core-components/src/components/**/*.stories.js",
+    "../../core-components/src/components/**/*.stories.jsx",
+    "../../core-components/src/components/**/*.stories.tsx",
+    "../../core-components/src/components/**/*.stories.mdx",
+    "*.js"
+  ]
+}
