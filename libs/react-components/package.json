@@ -1,6 +1,6 @@
 {
   "name": "@vrapalis/react-components",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
@@ -74,7 +74,7 @@
     "extends": []
   },
   "dependencies": {
-    "@vrapalis/core-components": "^1.2.0"
+    "@vrapalis/core-components": "^1.3.0"
   },
   "gitHead": "08b0e5716120e37980c46cc8d07b6f391993992e"
 }
