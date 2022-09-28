@@ -90,3 +90,9 @@ git cz
 ```
 lerna publish
 ```
+
+### Deploy to GitHub page
+```
+git checkout ghpage
+npm run deploy:ghpage
+```
