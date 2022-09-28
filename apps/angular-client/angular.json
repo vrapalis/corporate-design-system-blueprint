@@ -58,6 +58,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://vrapalis.github.io/corporate-design-system-blueprint/angular-client/",
               "budgets": [
                 {
                   "type": "initial",

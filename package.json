@@ -20,6 +20,8 @@
     }
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:clients": "lerna run build --scope=angular-client --scope=react-client --scope=web-client",
+    "deploy:ghpage": "rm -rf ./docs/* && mkdir -p docs/angular-client docs/react-client docs/web-client && npm run build:clients && cp -r apps/angular-client/dist/* docs/ && cp -r apps/react-client/build/* docs/react-client/ && cp -r apps/web-client/dist/* docs/web-client/"
   }
 }

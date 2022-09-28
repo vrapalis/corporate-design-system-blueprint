@@ -1,0 +1,1 @@
+import{p as e,b as t}from"./p-d68c0994.js";(()=>{const t=import.meta.url,o={};return""!==t&&(o.resourcesUrl=new URL(".",t).href),e(o)})().then((e=>t([["p-a4be2c6d",[[1,"ds-application",{headerTitle:[1,"header-title"],footerTitle:[1,"footer-title"]}],[1,"ds-footer"],[1,"ds-header"]]]],e)));
