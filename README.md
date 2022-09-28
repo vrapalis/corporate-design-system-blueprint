@@ -16,7 +16,26 @@
 > design systems. **Stencil** will generate web-components based on web standards and wrap the **web-components** to
 > the framework component like angular or react, which can be used als normal framework components.
 
-## Technology stack used in this project
+
+## Deployed To GitHub Pages 
+
+**Note:** Build and deployed to github pages, 3 clients (Angular, React, Pure Web) for demonstration purpose, all application have same look and feel build and compiled from single source. 
+to the target freamework components. Click on the image to navigate to the application.
+
+[<img src=".data/angular-client.png" alt="Angular Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/angular-client/)
+[<img src=".data/react-client.png" alt="React Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/react-client/)
+[<img src=".data/web-client.png" alt="Web Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/web-client/)
+
+## Storybook
+
+**Note:** Storybook is used to document and test in isolation the core components (web-components). Click on the image to navigate to the storybook page.
+
+[<img src=".data/storybook-client.png" alt="Storybook Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/storybook/)
+
+
+<details>
+  <summary markdown="span">Technology stack used in this project</summary>
+    
 - [Lerna](https://lerna.js.org/) (Build system for managing and publishing multiple JavaScript/TypeScript packages)
 - [Husky](https://github.com/typicode/husky) (Husky improves your commits and more)
 - [Commitlint](https://github.com/conventional-changelog/commitlint) (Lint commit messages)
@@ -25,6 +44,9 @@
 - [Angular](https://angular.io) (JS Framework to develop amazing uis)
 - [React](https://reactjs.org/) (JS Framework to develop amazing uis)
 - [Storybook](rybook.js.org) (Document and test platform)
+
+</details>
+
 
 ## How to use this template for development
 
