@@ -16,21 +16,24 @@
 > design systems. **Stencil** will generate web-components based on web standards and wrap the **web-components** to
 > the framework component like angular or react, which can be used als normal framework components.
 
-
 ## Deployed To GitHub Pages 
 
-**Note:** Build and deployed to github pages, 3 clients (Angular, React, Pure Web) for demonstration purpose, all application have same look and feel build and compiled from single source. 
-to the target freamework components. Click on the image to navigate to the application.
+**Note:** Build and deployed to github pages, 3 clients (Angular, React, Pure Web) for demonstration purpose, all application have same look and feel build and compiled from single source to the target freamework components. Click on the image to navigate to the application.
 
-[<img src=".data/angular-client.png" alt="Angular Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/angular-client/)
-[<img src=".data/react-client.png" alt="React Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/react-client/)
-[<img src=".data/web-client.png" alt="Web Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/web-client/)
+### Angular Application
+[![Angular Client](.data/angular-client.png "Angular Client")](https://vrapalis.github.io/corporate-design-system-blueprint/angular-client/)
+
+### React Application
+[![React Client](.data/react-client.png "React Client")](https://vrapalis.github.io/corporate-design-system-blueprint/react-client/)
+
+### Web Application
+[![Web Client](.data/web-client.png "Web Client")](https://vrapalis.github.io/corporate-design-system-blueprint/web-client/)
 
 ## Storybook
 
 **Note:** Storybook is used to document and test in isolation the core components (web-components). Click on the image to navigate to the storybook page.
 
-[<img src=".data/storybook-client.png" alt="Storybook Client" width="400px">](https://vrapalis.github.io/corporate-design-system-blueprint/storybook/)
+[![Storybook](.data/storybook-client.png "Storybook")](https://vrapalis.github.io/corporate-design-system-blueprint/storybook/)
 
 
 <details>
